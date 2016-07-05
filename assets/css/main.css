@@ -1,0 +1,10 @@
+#logo{
+    height: 50px;
+    width: 50px;
+}
+aside{
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    width: 200px;
+    height: 700px;
+}
