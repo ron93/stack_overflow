@@ -1,10 +1,35 @@
-#logo{
+body{
+    margin-top: 0px;
+}
+
+.logo{
     height: 50px;
     width: 50px;
+  margin-left: 100px;
 }
-aside{
-    background-color: dodgerblue;
-    border: 1px solid dodgerblue;
-    width: 200px;
+#sidebar{
+    float: left;
+  
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    width: 300px;
     height: 700px;
+}
+.upgrade{
+    
+    border: 1px solid aqua;
+    height: 100px;
+    width: 200px;
+    
+}
+#search{
+    margin-top: 0 px;
+}
+.nav-side{
+    padding-top: 15px;
+}
+.upload{
+    border: 1px solid white;
+    height: 40px;
+    width: 60px;
 }
