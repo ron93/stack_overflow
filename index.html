@@ -2,7 +2,9 @@
 <html>
     <link rel="stylesheet" href="assets/css/main.css">
     <head></head>
-    <body>
+    <body id="outer">
+        
+        <div id="inner">
         <header></header>
         <table>
             <tr>
@@ -24,14 +26,29 @@
         <a class="upgrade" href="#">UPGRADE
             ACCOUNT</a>
                 </td>
+                <div id="main">
                 <td>
+                    
         <div id="top">
         <input type="text" name="seach">
         </div>
         <div id="photos">
             <h2>Photos</h2>
-            
-            <a class="upload" href="#">upload</a>
+            <div icons>
+            <table>
+                <tr>
+                <td id="left">
+                     <a class="upload" href="#">upload</a>
+                    </td>
+                    <td id="right">
+                    <a href="#">Name</a>
+                        <a href="#">Size</a>
+                        <a href="#">Modified</a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+           
                     <table>
         <tr class="row">
         <td><img src="assets/img/4.jpg">  </td>
@@ -64,6 +81,8 @@
                 </td>
             </tr>
         </table> 
+        </div>
+        
     </body>
 
 </html>

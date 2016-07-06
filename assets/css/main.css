@@ -1,25 +1,30 @@
-body{
-    margin-top: 0px;
+/*--#inner{
+    border:1px solid white;
+    margin-top: 200px;
 }
+#main{
 
-.logo{
-    height: 50px;
-    width: 50px;
-  margin-left: 100px;
+}
+*/
+.logo img{
+    height: 100px;
+    width: 100px;
+  margin-left: 80px;
 }
 #sidebar{
     float: left;
   
-    background-color: darkblue;
+    background-color:  #30282A ;
     border: 1px solid darkblue;
     width: 250px;
-    height: 700px;
+    height: 600px;
 }
 .upgrade{
     
     border: 1px solid aqua;
     height: 100px;
     width: 200px;
+    margin-top: 600px;
     
 }
 #top{
@@ -39,4 +44,14 @@ body{
 }
 td{
     margin: 10px;
+}
+/*table icon*/
+
+
+#left{
+    float: left;
+    
+}
+#right{
+    margin-left: 300px;
 }
