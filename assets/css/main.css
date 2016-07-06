@@ -12,7 +12,7 @@ body{
   
     background-color: darkblue;
     border: 1px solid darkblue;
-    width: 300px;
+    width: 250px;
     height: 700px;
 }
 .upgrade{
@@ -22,8 +22,8 @@ body{
     width: 200px;
     
 }
-#search{
-    margin-top: 0 px;
+#top{
+    margin-top: -300 px;
 }
 .nav-side{
     padding-top: 15px;
@@ -32,4 +32,11 @@ body{
     border: 1px solid white;
     height: 40px;
     width: 60px;
+}
+.row img{
+    height: 200px;
+    width: 200px;
+}
+td{
+    margin: 10px;
 }
