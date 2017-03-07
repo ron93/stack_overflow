@@ -78,8 +78,15 @@ background-image: url(../img/back2.jpg);
     margin-right: 5%;
 }
 .members > div{
-    height:  15em;
+    height:  20em;
     border: 1px solid black;
     margin: 2em;
+}
+.members > div > .caption{
+    height: 3em;
+    background: #CE1131;
+    width: 117%;
+    margin-top:17em;
+    margin-left: -1em;
 }
 
