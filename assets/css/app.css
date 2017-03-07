@@ -1,4 +1,7 @@
 /*gen styles*/
+body{
+    overflow-x: hidden;
+}
 
 /*HEADER*/
 
@@ -61,7 +64,22 @@ background-image: url(../img/back2.jpg);
 /*MAIN*/
 
 .main{
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-top: 5em;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.main h2{
+    margin-left: 8%;
+}
+
+/*members*/
+.members{
+   margin-left: 5%;
+    margin-right: 5%;
+}
+.members > div{
+    height:  15em;
+    border: 1px solid black;
+    margin: 2em;
 }
 
