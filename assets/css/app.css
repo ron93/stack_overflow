@@ -4,13 +4,52 @@
 
 header{
     background: #CE1131;
-    height: 10vh;
+    height: 5em;
+/*    width: 1366px;*/
+   padding:1em;
+    padding-left:  0.5em;
+    
 }
+
 
 /*nav*/
 .nav{
-    margin: 1em;
+   padding-left: 1.5em;
+    width: 33.33%;
 }
 .nav .nav-link{
     color: white;
+}
+
+/*logo*/
+.logo{
+    text-align: center;
+}
+/*links*/
+.links{
+    width: 33.33%;
+
+}
+
+.social i{
+         margin: 0.5em;
+    margin-left:  1em;
+    color:  #fff;
+    text-align: center;
+
+}
+
+.buy{
+/*    margin: 1em;*/
+    height: 2em;
+    border: 1px solid;
+    border-radius:  15px;
+    background: #fff;
+    padding-right: 2px;
+    margin-left:  1em;
+}
+.buy .btn-link{
+text-align: center;
+    color: #CE1131;
+    margin-right:  10px;
 }
