@@ -1,0 +1,16 @@
+/*gen styles*/
+
+/*HEADER*/
+
+header{
+    background: #CE1131;
+    height: 10vh;
+}
+
+/*nav*/
+.nav{
+    margin: 1em;
+}
+.nav .nav-link{
+    color: white;
+}
