@@ -20,7 +20,7 @@ html {
 }
 h1,h2{
     margin-top: 1em;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 /*HEADER*/
@@ -161,4 +161,20 @@ header {
     height: 20em;
     width: 100%;
     border: 1px solid black;
+}
+
+/*FOOTER*/
+
+footer {
+    border-top: 1px solid #CE1131;
+    height: 5em;
+    
+}
+
+footer .nav-bottom {
+/* margin-left: 4em;   */
+    
+}
+.footer .nav-bottom a {
+    padding-left:1em;
 }
