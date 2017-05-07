@@ -46,7 +46,7 @@ header {
 /*social*/
 
 .social i {
-    padding-left: 13px;
+    margin-left: 10px;
 }
 
 /*logo*/
@@ -72,9 +72,6 @@ header {
     color: black;
     border-radius: 30px;
     margin-top: 1em;
-    margin-left: 32%;
-    
-    
 }
 .banner a{
 /*    font-size: 20px;*/
@@ -106,10 +103,48 @@ header {
     border: 1px solid black;
     margin-top: -1em;
 }
-/*events*/
+
+
+/*events gen*/
+
 .events {
-    height: 10em;
 }
+
+.events .show{
+    margin: 4%;
+}
+
+/*events*/
+.events figure {
+        width: 50%;
+        height: 20em;
+        border: 1px solid black;
+        float: left;
+        margin-right: 1em;
+}
+.events span {
+    padding-left: 4%;
+}
+.events .buy{
+     height: 4em;
+    width: 15em;
+    background: #CE1131;
+    color: black;
+    border-radius: 30px;
+    
+}
+
+/*guest artist*/
+.events .guest {
+    margin-top: 4%;
+}
+.guest figure{
+    height: 20em;
+    width: 70%;
+    border: 1px solid black;
+    
+}
+
 /*gallery*/
 .gallery {
     height: 10em;

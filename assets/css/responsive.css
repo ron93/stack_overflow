@@ -34,6 +34,10 @@
     .banner {
         margin-top: 7em;
     }
+    .banner .buy{
+            margin-left: 37em;
+
+    }
     
 /*    MAIN*/
 /*   members */
@@ -71,6 +75,10 @@
         
     }
     
+/*    BANNER*/
+    .banner .buy{
+        margin-left: 18%;
+    }
     
 /*    social */
     
@@ -79,10 +87,10 @@
     }
     
     .social a{
-        
+
     }
     .social i{
-/*        font-size: 15px;*/
+        padding-left: 1px;
     }
     
     /*nav*/
@@ -116,7 +124,7 @@
     .banner {
      
     }
-    .banner .buy{
+    .buy{
         height: 2em;
         width: 10em;
     }
@@ -135,6 +143,33 @@
     .members figcaption{
 
     }
+    
+/*    events*/
+    .events {
+        
+    }
+    .events figure {
+        margin: .5em;
+        float: left;
+        
+    }
+    .events span{
+        margin: 1em;        
+    }
+    .events .buy{
+        
+    }
+/*    guest artists*/
+    .guest {
+        margin: .5em;
+    }
+    .guest figure{
+    height: 20em;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
 
 }
 
