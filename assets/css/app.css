@@ -18,6 +18,10 @@ html {
         -moz-box-sizing:inherit;
             box-sizing:inherit;
 }
+h1,h2,h3{
+    margin-top: 1em;
+    text-align: center;
+}
 
 /*HEADER*/
 
@@ -84,9 +88,23 @@ header {
 
 /*MAIN*/
 /*members*/
-.members {
+ .members{
+        padding-top: 2em;
+    }
+    .members > div {
+        margin-bottom: 5em;
+    }
+
+.members  figure {
     height: 20em;
-    
+    width: 100%;
+    border: 1px solid black;
+}
+.members figcaption {
+    height: 5em;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: -1em;
 }
 /*events*/
 .events {

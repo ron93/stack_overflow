@@ -34,6 +34,12 @@
     .banner {
         margin-top: 7em;
     }
+    
+/*    MAIN*/
+/*   members */
+    .members > div {
+        margin: 4%;
+    }
 
     
     
@@ -42,8 +48,12 @@
 
 
 @media screen and (max-width: 960px) {
+/*    gen */
+    h1,h2,h3 {
+    text-align: center;
+}
     
-    header{
+    header {
     position: fixed;
 	top: 0;
 	left: 0;
@@ -109,6 +119,21 @@
     .banner .buy{
         height: 2em;
         width: 10em;
+    }
+    
+/*    MAIN*/
+/*  members*/
+
+    .members{
+    }
+    .members > div {
+       margin: .5em;
+    }
+    .members  figure {
+
+}
+    .members figcaption{
+
     }
 
 }
