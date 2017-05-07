@@ -6,87 +6,56 @@ hr{
     width: 60%;
     text-align: center;
 }
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    -webkit-box-sizing:inherit;
+        -moz-box-sizing:inherit;
+            box-sizing:inherit;
+}
+
+hr{ 
+color: grey;
+    
+}
 /*HEADER*/
 
 header{
+    position: fixed;
+	top: 1em;
+	left: 0;
+	width: 110%;
+	padding: 0;
     background: #CE1131;
     height: 5em;
-/*    width: 1366px;*/
-   padding:1em;
-    padding-left:  0.5em;
+    padding:1em;
+    z-index: 2;
     
 }
 
-
-/*nav*/
-.nav{
-   padding-left: 1.5em;
-    width: 33.33%;
-}
-.nav .nav-link{
-    color: white;
+/*banner*/
+.banner{
+    margin-top: 5em;
+       background: yellow;
+        height: 15em;
 }
 
-/*logo*/
-.logo{
-    text-align: center;
-}
-/*links*/
-
-.social i{
-         margin: 0.5em;
-    margin-left:  1em;
-    color:  #fff;
-    text-align: center;
-
-}
-
-.buy{
-/*    margin: 1em;*/
-    height: 2em;
-    border: 1px solid;
-    border-radius:  15px;
-    background: #fff;
-    padding-right: 2px;
-    margin-left:  1em;
-}
-.buy .btn-link{
-text-align: center;
-    color: #CE1131;
-    margin-right:  10px;
-}
-
-/*BANNER */
-
-.banner-img{
-background-image: url(../img/back2.jpg);
-    background-size: cover;
-    height:  50em;
-}
 
 /*MAIN*/
-
-.main h2 {
-    margin-left: 3.9em;
-    margin-top: 1em;
-}
-.members > figure {
-    height:  25em;
-    border: 1px solid black;
-    margin: 1.2em;
-/*     display: table;*/
-}
-.members img{
+/*members*/
+.members{
     height: 20em;
-    width:  100%;
-/*    display: table-cell;*/
-/*    vertical-align: inherit;*/
+    
 }
-.members > .caption{
-    height: 5em;
-    background-color: #CE1131;
-    width: 100%;
-    border: 1px solid  #CE1131;
-        display: block;
-
+/*events*/
+.events{
+    height: 10em;
+}
+/*gallery*/
+.gallery{
+    height: 10em;
 }

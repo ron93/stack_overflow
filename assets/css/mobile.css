@@ -1,0 +1,110 @@
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1110px) {
+	
+}
+
+@media screen and (max-width: 960px) {
+    
+    header{
+position: fixed;
+	top: 0;
+	left: 0;
+/*	width: 110%;*/
+	padding: 1em;
+    z-index: 2;
+    }
+    
+    
+      /* logo*/
+    .logo{
+        text-align: center;
+        
+    }
+/*    social */
+    
+    .social{
+/*        float: right;*/
+    }
+    
+    /*nav*/
+    .menu{
+        
+    }
+    .navbar {
+     
+    }
+  
+    .navbar-collapse{
+    background: #CE1131;
+    width: 6em;
+    height: 11em;
+    border-bottom-left-radius:10px;        
+    border-bottom-right-radius: 10px;
+/*    right: 2em;*/
+        
+    }
+    .navbar-nav {
+   
+   
+        }
+    
+    .navbar-nav >li > a {
+    margin-left: 1em;
+    }
+  
+/*    banner*/
+    
+    .banner{
+     
+    }
+    
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+      
+      
+}
+
+
+
+
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
