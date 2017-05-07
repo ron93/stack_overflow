@@ -2,7 +2,8 @@
 body{
     overflow-x: hidden;
 }
-hr{
+hr {
+    color: grey;
     width: 60%;
     text-align: center;
 }
@@ -18,44 +19,64 @@ html {
             box-sizing:inherit;
 }
 
-hr{ 
-color: grey;
-    
-}
 /*HEADER*/
 
-header{
+header {
     position: fixed;
-	top: 1em;
+	top:0;
 	left: 0;
 	width: 110%;
 	padding: 0;
     background: #CE1131;
-    height: 5em;
+    height: 7em;
     padding:1em;
     z-index: 2;
     
 }
 
+.social,.logo {
+    margin-top: 1.5em;
+}
+
+
+/*social*/
+
+.social i {
+    padding-left: 13px;
+}
+
+/*logo*/
+.logo {
+    padding-left: 2.5em;
+}
+
+/*nav*/
+
+
 /*banner*/
-.banner{
+.banner {
     margin-top: 5em;
        background: yellow;
         height: 15em;
 }
 
+/*nav*/
+.navbar {
+    margin: 0;
+}
+
 
 /*MAIN*/
 /*members*/
-.members{
+.members {
     height: 20em;
     
 }
 /*events*/
-.events{
+.events {
     height: 10em;
 }
 /*gallery*/
-.gallery{
+.gallery {
     height: 10em;
 }
