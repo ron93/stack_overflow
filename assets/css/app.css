@@ -18,7 +18,7 @@ html {
         -moz-box-sizing:inherit;
             box-sizing:inherit;
 }
-h1,h2,h3{
+h1,h2{
     margin-top: 1em;
     text-align: center;
 }
@@ -70,7 +70,7 @@ header {
     width: 15em;
     background: #CE1131;
     color: black;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-top: 1em;
 }
 .banner a{
@@ -110,8 +110,8 @@ header {
 .events {
 }
 
-.events .show{
-    margin: 4%;
+.events .show {
+   
 }
 
 /*events*/
@@ -125,27 +125,40 @@ header {
 .events span {
     padding-left: 4%;
 }
+/*buy button*/
 .events .buy{
-     height: 4em;
-    width: 15em;
     background: #CE1131;
     color: black;
-    border-radius: 30px;
+    
     
 }
 
 /*guest artist*/
 .events .guest {
-    margin-top: 4%;
+    margin-top: 2%;
 }
-.guest figure{
+
+/*
+.guest figcaption {
+    height: 5em;
+    width: 80%;
+    background: red;
+}
+*/
+.guest figure {
     height: 20em;
-    width: 70%;
+    width: 80%;
     border: 1px solid black;
-    
+/*    margin-left: 2em;*/
 }
 
 /*gallery*/
 .gallery {
-    height: 10em;
+    
+}
+
+.gallery figure {
+    height: 20em;
+    width: 100%;
+    border: 1px solid black;
 }

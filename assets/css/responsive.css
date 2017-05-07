@@ -44,17 +44,35 @@
     .members > div {
         margin: 4%;
     }
-
+/*events*/
+    .events .show {
+         margin-right: 2%;
+         margin-left: 4%;
+    }
     
+/*    buy button*/
+.events .buy {
+     height: 4em;
+    width: 15em;
+border-radius: 15px;
+    }
     
+/*    GALLERY */
+    .gallery {
+/*        margin: 4%;*/
+    }
+    .gallery figure{
+       
+    }
 }
 
 
 
 @media screen and (max-width: 960px) {
 /*    gen */
-    h1,h2,h3 {
-    text-align: center;
+    h1,h2 {
+/*    text-align: center;*/
+        margin-top: 1em;
 }
     
     header {
@@ -124,7 +142,7 @@
     .banner {
      
     }
-    .buy{
+    banner .buy{
         height: 2em;
         width: 10em;
     }
@@ -148,28 +166,42 @@
     .events {
         
     }
-    .events figure {
+    .events  .show {
         margin: .5em;
+        margin-bottom: 1em;
+    }
+    
+    .events figure {
+        margin-top: 1em;
         float: left;
         
     }
     .events span{
         margin: 1em;        
     }
-    .events .buy{
-        
+   .events .buy {
+    height: 4em;
+    width: 8em;
+    border-radius: 15px;
     }
 /*    guest artists*/
     .guest {
         margin: .5em;
+        margin-bottom: 1em;
     }
-    .guest figure{
+    .guest figure {
     height: 20em;
     width: 100%;
     border: 1px solid black;
     
-}
-
+    }
+    /*    GALLERY */
+    .gallery {
+        margin: .5em;
+    }
+    .gallery figure{
+        
+    }
 
 }
 
