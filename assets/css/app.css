@@ -4,7 +4,7 @@ body{
 }
 hr {
     color: grey;
-    width: 60%;
+    width: 80%;
     text-align: center;
 }
 html {
@@ -56,8 +56,24 @@ header {
 /*banner*/
 .banner {
     margin-top: 5em;
-       background: yellow;
-        height: 15em;
+    height: 20em;
+    border-bottom:1px solid #CE1131;
+    border-bottom-width: 80%;
+ 
+}
+.banner .buy{
+    height: 4em;
+    width: 15em;
+    background: #CE1131;
+    color: black;
+    border-radius: 30px;
+    margin-top: 1em;
+    margin-left: 32%;
+    
+    
+}
+.banner a{
+/*    font-size: 20px;*/
 }
 
 /*nav*/

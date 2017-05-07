@@ -30,8 +30,16 @@
         font-size: 20px;
     }
     
-	
+/*    BANNER */
+    .banner {
+        margin-top: 7em;
+    }
+
+    
+    
 }
+
+
 
 @media screen and (max-width: 960px) {
     
@@ -95,10 +103,13 @@
   
 /*    banner*/
     
-    .banner{
+    .banner {
      
     }
-    
+    .banner .buy{
+        height: 2em;
+        width: 10em;
+    }
 
 }
 
