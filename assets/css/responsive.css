@@ -43,6 +43,7 @@
 /*   members */
     .members > div {
         margin: 4%;
+        margin-top: -.5em;
     }
 /*events*/
     .events .show {
@@ -59,7 +60,8 @@ border-radius: 15px;
     
 /*    GALLERY */
     .gallery {
-/*        margin: 4%;*/
+        margin-top: -3em;
+
     }
     .gallery figure{
        

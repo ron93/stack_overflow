@@ -20,7 +20,8 @@ html {
 }
 h1,h2{
     margin-top: 1em;
-/*    text-align: center;*/
+    margin-left: 2em;
+
 }
 
 /*HEADER*/
@@ -85,12 +86,10 @@ header {
 
 /*MAIN*/
 /*members*/
- .members{
+ .members {
         padding-top: 2em;
     }
-    .members > div {
-        margin-bottom: 5em;
-    }
+  
 
 .members  figure {
     height: 20em;
@@ -108,10 +107,12 @@ header {
 /*events gen*/
 
 .events {
+    margin-top: 2em;
 }
 
-.events .show {
-   
+.events h3 {
+    margin-bottom: 1em;
+    
 }
 
 /*events*/
@@ -153,9 +154,13 @@ header {
 }
 
 /*gallery*/
-.gallery {
-    
-}
+ .gallery {
+        padding-top: 2em;
+    }
+.gallery > div {
+        margin: 4%;
+        margin-bottom: 5em;
+    }
 
 .gallery figure {
     height: 20em;
