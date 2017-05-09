@@ -121,10 +121,10 @@ header {
         height: 20em;
         border: 1px solid black;
         float: left;
-        margin-right: 1em;
+        margin-right: 3em;
 }
 .events span {
-    padding-left: 4%;
+    padding: 2em;
 }
 /*buy button*/
 .events .buy{
@@ -148,7 +148,7 @@ header {
 */
 .guest figure {
     height: 20em;
-    width: 80%;
+    width: 90%;
     border: 1px solid black;
 /*    margin-left: 2em;*/
 }
