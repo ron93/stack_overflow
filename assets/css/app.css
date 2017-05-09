@@ -20,7 +20,6 @@ html {
 }
 h1,h2{
     margin-top: 1em;
-    margin-left: 2em;
 
 }
 
@@ -171,7 +170,9 @@ header {
 /*FOOTER*/
 
 footer {
-    border-top: 1px solid #CE1131;
+    border-top: 1px solid grey;
+    border-top-width: 80%;
+    margin-left: 10%;
     height: 5em;
     
 }
