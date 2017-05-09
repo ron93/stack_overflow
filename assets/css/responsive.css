@@ -77,6 +77,15 @@ border-radius: 15px;
     }
 }
 
+/*FOOTER*/
+footer .nav-bottom {
+    margin-left: 15%;
+    margin-top: 1em;
+}
+footer .nav-bottom a {
+    margin: 5em;
+}
+
 
 
 @media screen and (max-width: 960px) {
@@ -213,6 +222,7 @@ border-radius: 15px;
     .gallery figure{
         
     }
+    
 
 }
 
