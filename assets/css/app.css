@@ -115,16 +115,13 @@ header {
 }
 
 /*events*/
-.events figure {
-        width: 50%;
+.show figure {
         height: 20em;
-        border: 1px solid black;
-        float: left;
-        margin-right: 3em;
+    width: 50%;
+    border: 1px solid black;
+    margin-left:  1em;
 }
-.events span {
-    padding: 2em;
-}
+
 /*buy button*/
 .events .buy{
     background: #CE1131;
@@ -133,32 +130,31 @@ header {
     
 }
 
-/*guest artist*/
-.events .guest {
-    margin-top: 2%;
-}
+/*-----------------guest artist--------------------*/
+.guest  figure {
+    height: 15em;
+    width: 100%;
+    border: 1px solid black;
 
-/*
+}
 .guest figcaption {
     height: 5em;
-    width: 80%;
-    background: red;
-}
-*/
-.guest figure {
-    height: 20em;
-    width: 90%;
+    width: 100%;
     border: 1px solid black;
-/*    margin-left: 2em;*/
 }
 
-/*gallery*/
+.events .guest {
+    margin-top: 2.5%;
+}
+
+
+/*-------------gallery-----------------*/
  .gallery {
         padding-top: 2em;
     }
 .gallery > div {
-        margin: 4%;
-        margin-bottom: 5em;
+/*        margin: 4%;*/
+        margin-bottom: 1em;
     }
 
 .gallery figure {

@@ -1,0 +1,267 @@
+
+
+/* Media Queries */
+
+@media screen and (min-width: 1110px) {
+    
+    h1, h2 {
+            margin-left: 2em;
+
+    }
+    
+/*    HEADER*/
+/*    social*/
+    .social i{
+        font-size: 20px;
+        color: #CE1131;
+        padding-right: .5em;
+    }
+    .social a{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+/*    width: 20px;*/
+    padding: 10px;
+    margin-left: 3em;
+    
+}
+    
+/*    logo */
+    .logo{
+        padding-left: 10em;
+    }
+/*    nav*/
+    .navbar a{
+        font-size: 20px;
+    }
+    
+/*    BANNER */
+    .banner {
+        margin-top: 7em;
+    }
+    .banner .buy{
+            margin-left: 37em;
+
+    }
+    
+/*    MAIN*/
+/*   members */
+    .members > div {
+        margin: 4%;
+        margin-top: -.5em;
+    }
+    
+    
+    
+/*events*/
+    .events .show {
+         margin-right: 2%;
+         margin-left: 4%;
+    }
+    
+    
+/*    buy button*/
+.events .buy {
+     height: 4em;
+    width: 15em;
+border-radius: 15px;
+    }
+    
+/*    GALLERY */
+    .gallery {
+        margin-top: -3em;
+
+    }
+    .gallery figure{
+       
+    }
+}
+
+/*FOOTER*/
+footer .nav-bottom a {
+/*    margin: em;*/
+}
+
+
+
+@media screen and (max-width: 960px) {
+/*    gen */
+    h1,h2 {
+/*    text-align: center;*/
+        margin-top: 1em;
+}
+    
+    header {
+    position: fixed;
+	top: 0;
+	left: 0;
+/*	width: 110%;*/
+	padding: 1em;
+    z-index: 2;
+        height: 5em;
+    }
+    
+    
+      /* logo*/
+    
+    .logo{
+    padding-left: 2.5em;
+        
+    }
+    
+/*    BANNER*/
+    .banner .buy{
+        margin-left: 18%;
+    }
+    
+/*    social */
+    
+    .social{
+
+    }
+    
+    .social a{
+
+    }
+    .social i{
+        padding-left: 1px;
+    }
+    
+    /*nav*/
+    
+    .menu{
+        
+    }
+    .navbar {
+     
+    }
+  
+    .navbar-collapse{
+    background: #CE1131;
+    width: 6em;
+    height: 11em;
+    border-bottom-left-radius:10px;        
+    border-bottom-right-radius: 10px;
+        
+    }
+    .navbar-nav {
+   
+   
+        }
+    
+    .navbar-nav >li > a {
+    margin-left: 1em;
+    }
+  
+/*    banner*/
+    
+    .banner {
+     
+    }
+    banner .buy{
+        height: 2em;
+        width: 10em;
+    }
+    
+/*    MAIN*/
+/*  members*/
+
+    .members{
+    }
+    .members > div {
+       margin: .5em;
+    }
+    .members  figure {
+
+}
+    .members figcaption{
+
+    }
+    
+/*    events*/
+    .events {
+        
+    }
+    .events  .show {
+        margin: .5em;
+        margin-bottom: 1em;
+    }
+    
+    .events figure {
+        margin-top: 1em;
+        float: left;
+        
+    }
+    .events span{
+        margin: 1em;        
+    }
+   .events .buy {
+    height: 4em;
+    width: 8em;
+    border-radius: 15px;
+    }
+/*    guest artists*/
+    .guest {
+        margin: .5em;
+        margin-bottom: 1em;
+    }
+    .guest figure {
+    height: 20em;
+    width: 100%;
+    border: 1px solid black;
+    
+    }
+    /*    GALLERY */
+    .gallery {
+        margin: .5em;
+    }
+    .gallery figure{
+        
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+      
+      
+}
+
+
+
+
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
