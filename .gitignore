@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Airflow configuration
 airflow.cfg
 unittests.cfg
@@ -215,3 +216,6 @@ Chart.lock
 pip-wheel-metadata
 
 .pypirc
+=======
+/data
+>>>>>>> 4435be8603f8be1df0a4ca99168e8ce71b89fea3
