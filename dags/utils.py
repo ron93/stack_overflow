@@ -42,3 +42,23 @@ def call_api() -> dict:
             "score": question["score"],
             "tags": question["tags"],
         }
+
+def insert_question_to_db():
+    """insert questions to postgres database"""
+    query = """
+        INSERT INTO public.questions (
+            question_id,
+            title,
+            is_answered,
+            link,
+            owner_reputation, 
+            +
+            score, 
+            tags)
+        VALUES (%s, %s, %s, %s, %s, %s, %s); 
+        """
+    rows = call_api()
+    for row in rows:
+        row = tuple(row.valuess())
+        pg_hook = PostgresHook(postgres_conn_id="postgres_connection")
+        pg_hook.run(insert_question_to_db, parameters=row)
