@@ -7,7 +7,7 @@ from airflow.operators.python_operator import PythonOperator
 
 #from utils import insert_question, write_questions_to_s3, render_template
 
-#from dags.utils import insert_question_to_db
+from dags.utils import insert_question_to_db
 
 default_args = {
     "owner": "me",

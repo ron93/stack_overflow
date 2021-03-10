@@ -62,3 +62,30 @@ def insert_question_to_db():
         row = tuple(row.valuess())
         pg_hook = PostgresHook(postgres_conn_id="postgres_connection")
         pg_hook.run(insert_question_to_db, parameters=row)
+
+def filter_question() -> str:
+    """query questions from db and filter and return json
+    [
+        {
+        "title": "Question Title",
+        "is_answered": false,
+        "link": "https://stackoverflow.com/questions/0000001/...",
+        "tags": ["tag_a","tag_b"],
+        "question_id": 0000001
+        },
+    ]
+    """
+    columns = ("title" , "is_answered" , "link","tags","question_id")
+    filter_query = """
+        SELECT title,  "is_answered" , "link","tags","question_id"
+        FROM questions
+        WHERE  score >=1 and owner_reputation > 1000
+    """
+
+    pg_hook = PostgresHook(postgres_conn_id="postgres_connection").get_conn()
+
+    with pg_hook.cursor("serverCursor") as pg_hook:
+        pg_cursor.execute(filter_query)
+        rows = pg_cursor.fetchall()
+        results = [dict(zip(columns, row)) for row in rows]
+        return json.dumps(results, index=2)
